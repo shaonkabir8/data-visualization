@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #111a28;
+    --color-bg-light: #223965;
+    --color-green: #00cf5d;
+    --color-white: #e6e4e4;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: var(--color-bg);
+    color: var(--color-white)
+}
